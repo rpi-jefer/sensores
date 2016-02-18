@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sensor</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- importamos la libreria de firebase cliente para javascript -->
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+
+    <!-- Logica de comunicación con firebase  -->
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- Imagenes que se muestran en el fondo  -->
+<div>
+  <img src="img/dia_frio.jpg" class="bg" id="imgDiaFrio" style="display:none">
+  <img src="img/dia_fresco.jpg" class="bg" id="imgDiaFresco" style="display:none">
+  <img src="img/dia_calido.jpg" class="bg" id="imgDiaCalido" style="display:none">
+  <img src="img/noche.jpg" class="bg" id="imgNoche" style="display:none" >
+</div>
+
+  <!-- Textos que se muestran -->
+  <h1>SENSOR TEMPERATURA: <span id="temp"></span> ° C</h1>
+  <h1>SENSOR LUZ: <span id="luz"></h1></span>
+  <h2 id="dia"></h2>
+
+</body>
+</html>
+

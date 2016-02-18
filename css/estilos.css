@@ -1,0 +1,34 @@
+*{
+  font-family: 'Fjalla One', sans-serif;
+}
+h1{
+  text-align: center;
+  color: #FFF;
+  font-size: 50px;
+  text-shadow: 1px 1px 7px rgba(150, 150, 150, 1);
+}
+h2{
+  text-align: center;
+  color: #FFF;
+  font-size: 45px;
+  text-shadow: 1px 1px 7px rgba(150, 150, 150, 1);
+}
+
+.bild {
+  position:absolute;
+  display:none;
+  width:1000px;
+  height:735px;
+}
+.bg { 
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  z-index: -99;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;  
+  z-index: -999;
+ }
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; } 
